@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gavin Look</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
-
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -19,29 +20,44 @@
 <body>
   <main>
     <!-- Navigation Bar -->
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="col align-self-end">
+          <a name="Home">Home</a>
+          <a name="MyStory">My Story</a>
+          <a name="Projects">Projects</a>
+          <a name="Contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- cover page -->
     <header class="mastHead">
-      <div class="navbar">
-        <div class="container">
-          <div class="row-lg-12">
-            Home
-            me
-            Projects
-            Contact
+      <div class="container">
+        <div class="padding1"></div>
+        <div class="row-xl-8 align-self-end">
+          <a href="#Home"><h1>Gavin Look</h1></a>
+          <div class="row">
+            <div class="col align-self-center">
+              <span>Galvanize student / Engineer</span>
+            </div>
           </div>
         </div>
       </div>
-      <!-- cover page -->
-      <div class="container">
-
-
-      </div>
     </header>
     <div class="resume">
-      Resume page-header picture
-
+      <a href="#My Story"><h1> My Story </h1></a>
+      <div class="row-lg-8">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
     </div>
     <div class="contactForm">
-
+      <a href="#Projects"><h1> Projects </h1></a>
+    </div>
+    <div class="contactForm">
+      <a href="#Contact"><h1> Contact </h1></a>
     </div>
   </main>
 

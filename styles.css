@@ -1,8 +1,44 @@
-header .navbar {
-  background-color: red;
-  padding: 3em;
+*{
+  font-size: 16px;
+  color: white;
+}
+/* a {
+    color: white;
+    text-decoration: none;
 }
 
-mastHead.container {
-  background-image: Media/greyscale Seattle.jpg;
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+} */
+
+nav{
+  color: white;
+  background-color: black;
+  background-attachment: fixed;
+  padding: 2em;
+
+}
+
+.padding1 {
+  padding: 20em;
+}
+ header{
+  text color: white;
+  background-color: black;
+  padding: 2em;
+}
+
+.mastHead {
+  background-image: url('https://i.imgur.com/9srnrym.jpg');
+
+  /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
