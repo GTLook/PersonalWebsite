@@ -6,11 +6,11 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <meta charset="utf-8">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -19,45 +19,72 @@
 
 <body>
   <main>
-    <!-- Navigation Bar -->
-
-    <nav class="navbar">
-      <div class="container">
-        <div class="col align-self-end">
-          <a name="Home">Home</a>
-          <a name="MyStory">My Story</a>
-          <a name="Projects">Projects</a>
-          <a name="Contact">Contact</a>
-        </div>
-      </div>
-    </nav>
-    <!-- cover page -->
     <header class="mastHead">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+        <div class="container">
+          <!-- <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="row">
+              <a class="col-sm nav-link js-scroll-trigger" href="#about">Home</a>
+              <a class="col-sm nav-link js-scroll-trigger" href="#about">My Story</a>
+              <a class="col-sm nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="col-sm nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- cover page -->
       <div class="container">
         <div class="padding1"></div>
-        <div class="row-xl-8 align-self-end">
-          <a href="#Home"><h1>Gavin Look</h1></a>
-          <div class="row">
-            <div class="col align-self-center">
-              <span>Galvanize student / Engineer</span>
+        <div class="row">
+          <a name='home'></a>
+          <div class="col-md-4">
+            <h1>Gavin Look</h1>
+            <div class="row">
+              <div class="col align-self-center">
+                <span>Galvanize student / Engineer</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <div class="resume">
-      <a href="#My Story"><h1> My Story </h1></a>
-      <div class="row-lg-8">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <!-- about me -->
+    <div class="MyStory">
+      <a name='My Story'><h1> My Story </h1></a>
+      <div class="row">
+        <div class="col-6 align-self-center">
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
       </div>
     </div>
-    <div class="contactForm">
-      <a href="#Projects"><h1> Projects </h1></a>
+    <div class="Projects">
+      <div class="container">
+        <div class="row">
+          <a name="Projects"><h1> Projects </h1></a>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </div>
     </div>
-    <div class="contactForm">
-      <a href="#Contact"><h1> Contact </h1></a>
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <a name="contact"><h1> Contact </h1></a>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </div>
     </div>
   </main>
 
