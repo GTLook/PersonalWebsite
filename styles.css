@@ -1,65 +1,11 @@
 /*General styles for whole page*/
 *{
-  font-size: 16px;
-  color: white;
   padding: 0 ;
   margin: 0 ;
-
-}
-h1 {
-  font-size: 50px;
-  font-size-adjust: auto;
-  font-weight: 500;
-  padding-left: 3em;
 }
 
-/* stlyes for removing default hyperlinks styleing */
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover
-{
-     color:#00A0C6;
-     text-decoration:none;
-     cursor:pointer;
-}
- /* Nav bar styles */
- .navbar {
-     overflow: hidden;
-     background-color: #333;
-     position: fixed;
-     top: 0;
-     width: 100%; /* Full width */
- }
-
- /* Links inside the navbar */
- .navbar {
-     float: center;
-     display: inline-block;
-     color: #f2f2f2;
-     text-align: center;
-     padding: 18px;
-     text-decoration: none;
- }
-
- /* Change background on mouse-over */
- .navbar a:hover {
-     background: #ddd;
-     color: black;
- }
-
- /* Main content */
-
-/* Cover page syles */
-.padding1 {
-  padding: 18em;
-}
-
-
-.mastHead {
-  background-image: url('https://i.imgur.com/9srnrym.jpg');
+body {
+  background-image: url('https://i.imgur.com/hCV4KTR.jpg');
 
   /* Full height */
    height: 100%;
@@ -68,10 +14,14 @@ a:hover
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 
-/* style projects */
-div.projects, div.MyStory, div.contact{
-  background-color: black
+#introName{
+  margin-top: 30%;
+  margin-bottom: 70%;
+}
 
+.row{
+  border: black solid 4px;
 }
