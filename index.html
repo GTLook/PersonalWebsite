@@ -6,7 +6,6 @@
   <title>Portfolio</title>
   <!-- link stylesheet -->
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -14,73 +13,23 @@
 </head>
 
 <body>
-  <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-     <div class="container">
-       <a class="navbar-brand js-scroll-trigger" href="#page-top">Next/Icon/ScrollControler</a>
-       <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button> -->
-       <div class="" id="navbarResponsive">
-         <ul class="navbar-nav ml-auto">
-
-           <li class="nav-item">
-             <a class="nav-link js-scroll-trigger" href="https://github.com/GTLook"><i class="fab fa-github-square fa-lg"></i></a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link js-scroll-trigger" href="mailto:GTLook@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/gavin-look-ab3b5756/"><i class="fab fa-linkedin fa-lg"></i></a>
-           </li>
-           <!-- Extra line item -->
-           <!-- <li class="nav-item">
-             <a class="nav-link js-scroll-trigger" href="#contact"></a>
-           </li> -->
-         </ul>
-       </div>
-     </div>
-   </nav>
-
-  <main>
-    <header>
-      <!-- Main intro page -->
-      <div class="container justify-content-center" id='introName'>
-        <div class="row">
-          <div class="col text-center">
-            <h1>Gavin Look</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <span>Full Stack Developer / Engineer</span>
+  <container>
+    <main>
+      <div class="card mx-auto bg-light" style="width: 18rem;">
+        <container class='avatar'>
+          <img class="card-img-top rounded-circle img-fluid" src="./Images/Avatar.jpg" alt="Card image cap">
+        </container>
+        <div class="card-body">
+          <h2 class="card-title text-center">Gavin Look</h2>
+          <p class="card-text">Full stack Developer and Engineer</p>
+          <div class="row justify-content-center">
+            <a class="nav-link js-scroll-trigger" href="mailto:GTLook@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+            <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/gavin-look-ab3b5756/"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a class="nav-link js-scroll-trigger" href="https://github.com/GTLook"><i class="fab fa-github-square fa-lg"></i></a>
           </div>
         </div>
       </div>
-    </header>
-    <div class="container" id='projects'>
-      <div class="row">
-        <div class="col">
-          Q1
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          Q2
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          Q3
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          Q4/capstone
-        </div>
-      </div>
-    </div>
-  </main>
+  </container>
 </body>
 
 </html>
